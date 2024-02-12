@@ -16,14 +16,15 @@
 
 header{
     width: 100%;
-    height: 1150px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url("../src/assets/img/Header (1).svg");
+    background-image: url("../src/assets/img/Header\ teste.svg");
     background-size: cover;
     background-position: center;
 }
+
 body{
     margin: 0;
     padding: 0;
@@ -33,35 +34,38 @@ body{
 
 }
 .logo{
-    width: 50em ;
+    width: 30% ;
 }
 
-.faixa1{
-    width: 100%;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.faixa1 {
+    text-align: center;
+    margin-top: 60px; /* Espaçamento superior */
 }
 
 .faixa1 h1{
-    font-size: 120px;
-    font-family: 'Titulo';
+    font-weight: normal;
+    font-family: poppins;
+    font-size: 96px;
 }
 
-.faixa1 a {
-
-    font-size: 45px;
-    margin-bottom: 150px;
-    font-family: 'Texto' ;
-
-
+.faixa1 a{
+    font-family: Texto;
+    font-size: 40px;
 }
 
-.imagens{
+
+.faixa1 h1, .faixa1 a {
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.imagens {
+    margin-top: 2%;
     display: flex;
-    flex-direction: row;
-    height: auto;
+    justify-content: center;
+}
+
+.imagens img{
+    margin: 0 10px;
 }
 
 .img1{
@@ -79,3 +83,74 @@ border-radius: 8%;
     height: 500px;
     border-radius: 10%;
 }
+
+.second-part-title{
+    text-align: center;
+}
+
+.second-part-title h1{
+    font-weight: normal;
+    font-family: poppins;
+    font-size: 96px;
+}
+
+.second-part-title p{
+    font-family: Texto;
+    font-size: 40px;
+}
+
+.buttons{
+    margin-bottom: 1000px;
+    display: inline-flex;
+    justify-content: center; /* Alinhar os containers horizontalmente */
+    align-items: center; /* Alinhar os containers verticalmente */
+}
+
+.container-caixa-1{
+    border-radius: 5%;
+    margin-right: 1rem;
+    width: 40%;
+    height: 25rem;
+    background-image: url("./assets/img/Group\ 22.svg");
+    background-repeat: no-repeat;
+
+    
+}
+
+.container-caixa-2{
+    border-radius: 5%;
+    margin-left: 1rem;
+    width: 40%;
+    height: 25rem;
+    background-image: url("./assets/img/Group\ 23.svg");
+    background-repeat: no-repeat;
+}
+
+.itens-red {
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column; /* Dispor os itens em coluna */
+    align-items: center; /* Alinhar itens filhos ao centro */
+}
+
+
+
+.text{
+    font-size: 2rem;
+    font-family: Texto;
+    color: aliceblue;
+}
+
+.link{
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;      
+        background-color: transparent; /* Remover fundo */
+        border: 2px solid white; /* Adicionar borda */
+        color: #fff; /* Cor do texto */
+        padding: 10px 20px; /* Espaçamento interno */
+        text-decoration: none; /* Remover sublinhado */
+        cursor: pointer; /* Cursor de ponteiro ao passar por cima */
+
+}
+
